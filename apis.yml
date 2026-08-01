@@ -1,8 +1,25 @@
 aid: sendcutsend
 name: SendCutSend
-description: 'SendCutSend is a company surfaced as a portfolio company of paradigm and added to the API
-  Evangelist network as a stub for enrichment. Sector: manufacturing. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'SendCutSend is a rapid custom manufacturing service offering online sheet metal
+  fabrication, laser cutting, waterjet cutting, CNC machining, CNC bending, tapping, hardware
+  installation, and finishing across 175+ materials, with instant online pricing from uploaded
+  STEP or DXF files and parts delivered in as little as a few days. Customers quote, configure,
+  and order parts through the app.sendcutsend.com web application. The company reached a $1.01B
+  valuation following a $110M investment co-led by Sequoia, Paradigm, and Patrick and John Collison.
+  SendCutSend does not currently publish a public developer API; this profile captures its public
+  web, pricing, and content surface for the API Evangelist network.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://sendcutsend.com/wp-content/uploads/2024/01/home-hero-feb21-mobile@1.5x.jpg
 url: https://raw.githubusercontent.com/api-evangelist/sendcutsend/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Manufacturing
+- Laser Cutting
+- Sheet Metal Fabrication
+- CNC Machining
+- Waterjet Cutting
+- Custom Manufacturing
+- On-Demand Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,28 @@ maintainers:
 common:
 - type: Website
   url: https://sendcutsend.com
+- type: SignUp
+  url: https://app.sendcutsend.com/customer#/quote?action=register
+- type: Login
+  url: https://app.sendcutsend.com/customer#/quote?action=login
+- type: Pricing
+  url: https://sendcutsend.com/pricing/
+- type: Blog
+  url: https://sendcutsend.com/blog/
+- type: Support
+  url: https://sendcutsend.com/contact/
+- type: HelpCenter
+  url: https://sendcutsend.com/faq/
+- type: TermsOfService
+  url: https://sendcutsend.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://sendcutsend.com/privacy-policy/
+- type: LLMsTxt
+  url: llms/sendcutsend-llms.txt
+- type: DomainSecurity
+  url: security/sendcutsend-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
