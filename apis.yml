@@ -8,6 +8,17 @@ description: 'SendCutSend is a rapid custom manufacturing service offering onlin
   valuation following a $110M investment co-led by Sequoia, Paradigm, and Patrick and John Collison.
   SendCutSend does not currently publish a public developer API; this profile captures its public
   web, pricing, and content surface for the API Evangelist network.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
